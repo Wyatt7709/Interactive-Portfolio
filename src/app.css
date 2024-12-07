@@ -96,7 +96,7 @@
   
   .hero-banner {
     background: rgb(68, 88, 120);
-    background-image: url("../src/assets/"), linear-gradient(180deg, var(--secondary) 0%, var(--primary) 100%);
+    background-image: url("../src/assests/background.jpg"), linear-gradient(180deg, var(--secondary) 0%, var(--primary) 100%);
     background-size: cover;
     background-position: center;
     background-blend-mode: soft-light;
@@ -285,42 +285,42 @@
   }
   
   .websiteimage0 {
-    background-image: url("./src/assets/0.webp");
+    background-image: url("../src/assests/employe.jpg");
     background-size: cover;
     background-position: center ;
     background-repeat: no-repeat;
   }
   
   .websiteimage1 {
-    background-image: url("./src/assets/1.png");
+    background-image: url("../src/assests/car.jpg");
     background-size: cover;
     background-position: center top;
     background-repeat: no-repeat;
   }
   
   .websiteimage2 {
-    background-image: url("../src/assets/2.png");
+    background-image: url("../src/assests/weather.jpg");
     background-size: cover;
     background-position: top left;
     background-repeat: no-repeat;
   }
   
   .websiteimage3 {
-    background-image: url("../src/assets/3.png");
+    background-image: url("");
     background-size: cover;
     background-position: center left;
     background-repeat: no-repeat;
   }
   
   .websiteimage4 {
-    background-image: url("../src/assets/4.png");
+    background-image: url("");
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
   }
   
   .websiteimage5 {
-    background-image: url("../src/assets/5.png");
+    background-image: url("");
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
