@@ -5,6 +5,7 @@ interface FlexItemProps {
   altText: string;
   text: string;
   className: string;  // Add className prop
+  children?: React.ReactNode;  // Add children prop
 }
 
 
@@ -53,43 +54,49 @@ const HeroBanner: React.FC = () => (
 const FlexContainer: React.FC = () => (
   <section className="flex-container">
     <FlexItem
-      href=""
+      href=" "
       altText="project1"
-      text="Website Project"
-      className="websiteimage1" 
-    />
+      text="Employee Tracker"
+      className="websiteimage1"
+    >
+      <img src="empoye.jpg" alt="project1" />
+    </FlexItem>
     <FlexItem
       href=""
-      altText=""
-      text=""
+      altText="Project2"
+      text="Car Builder"
       className="websiteimage2"  
-    />
+    >
+      <img src="car.jpg" alt="project2" />
+    </FlexItem>
     <FlexItem
       href=""
-      altText=""
-      text=""
+      altText="Project3"
+      text="Weather Dashboard"
       className="websiteimage3"  
-    />
+    >
+      <img src="weather.jpg" alt="project3" />
+    </FlexItem>
     <FlexItem
       href=""
-      altText=""
-      text=""
+      altText="Project4"
+      text="Coming Soon"
       className="websiteimage4" 
-    />
+    >
+      <img src="quet.jpg" alt="project4" />
+    </FlexItem>
     <FlexItem
       href=""
-      altText="project1"
-      text="Placeholder"
+      altText="Project5"
+      text="Coming Soon"
       className="websiteimage5"  
-    />
+    >
+      <img src="quet.jpg" alt="project5" />
+    </FlexItem>
   </section>
 );
 
-interface FlexItemProps {
-  href: string;
-  altText: string;
-  text: string;
-}
+
 
 const FlexItem: React.FC<FlexItemProps> = ({ href, altText, text, className }) => (
   <section className={`flex-item ${className}`}>
@@ -117,7 +124,7 @@ const Footer: React.FC = () => (
   <footer id="contact">
     <h4>Contact Me</h4>
     <h5>
-      <a href="mailto:josepheyler@gmail.com">wwoydziak.7704@gmail.com</a>
+      <a href="mailto:wwoydziak.7704@gmail.com">wwoydziak.7704@gmail.com</a>
     </h5>
   </footer>
 );
